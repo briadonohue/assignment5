@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Responsive Web Map Layout</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.0/mapbox-gl.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+</head>
+
+<body>
+    <div id="main-container">
+        <nav>
+            <div class="title">2022 General Election Voter Turnout for Manhattan Congressional Districts</div>
+
+        </nav>
+        <div id="content-container">
+            <div id="sidebar">
+                <p>This is a map demostrating voter turnout in the 2022 general election for Manhattan congressional races.</p>
+                <p>There are three congressional districts in Manhattan: 10, 12, & 13.</p>
+                <p>Voter turnout varies pretty significantly in the general election between the three districts.</p>
+                <p>The darker the color of the district the higher the turnout.</p>
+                <p>Congresional District 10 Turnout: 84,748 </p>
+                <p>Congresional District 12 Turnout: 246,105 </p>
+                <p>Congresional District 12 Turnout: 100,709 </p>
+                <p>In New York County - i.e., Manhattan - there are 1,129,673 registered voters, so we see that turnout in these races was abysmal.</p>
+            </div>
+            <div id="map"></div>
+        </div>
+    </div>
+    <div id="map"></div>
+    
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.0/mapbox-gl.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
